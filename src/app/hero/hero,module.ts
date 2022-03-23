@@ -9,6 +9,7 @@ import { ListadoComponent } from './listado/listado.component';
          ListadoComponent
      ],
      exports:[
+        HeroComponent,
          ListadoComponent
      ],
      imports:[ // Solo modulos
