@@ -1,4 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 *{
-    background-color: #444;
+    background-color: #555;
+    margin: 5px;
+}
+
+.row{
+    display: flex;
+}
+.col{
+    flex-grow: 1;
+    margin: 10px;
+}
+
+input{
+    display: block;
+    margin: 5;
 }
